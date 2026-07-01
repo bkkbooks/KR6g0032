@@ -1,0 +1,72 @@
+canonical_identifier: bkk:krp/KR6g0032/v1
+canonical_location: https://kanripo.org/bkk/KR6g0032/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 蓮華面經
+  identifiers:
+    alt_id:
+    - T12n0386
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T12/T12n0386.xml
+    old_id: T12n0386
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit3
+- short: 元
+  label: 元
+  source_xml_id: wit1
+- short: 明
+  label: 明
+  source_xml_id: wit2
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 麗-CB
+  label: 麗-CB
+  source_xml_id: wit5
+- short: 磧-CB
+  label: 磧-CB
+  source_xml_id: wit6
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6g0032_000.yaml, hash: 'sha256:f7992c10fe0617d66c9778a595d0954057f4bf589ead1a0986cddd5bdd14bb75'}
+  - {seq: 1, filename: KR6g0032_001.yaml, hash: 'sha256:f83d535075081eaf718528d5361c2b5a20e826d8b39b4fa3eb8694773c984a02'}
+  - {seq: 2, filename: KR6g0032_002.yaml, hash: 'sha256:384d587272d22b9e4fbb0d1560f6ae8b4613c75dc3868069f7f353e50bf0942e'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6g0032_001.markers.yaml, hash: 'sha256:d90887cf111dd91eb04483ce7a8f416fc8c644a11ea1fba3e6baad0a5f5623ac'}
+  - {seq: 2, role: markers, filename: assets/KR6g0032_002.markers.yaml, hash: 'sha256:d8caa9db81119b11c2c449545cf9a44caf4f4094f721fb264c74ad0c6c154a07'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6g0032_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 5028
+  label: 蓮華面經卷上大乘修多羅藏
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6g0032_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 4839
+  label: 蓮華面經卷下
+  type: juan
+  level: 1
+hash: sha256:0291b6d6cadf63a2298926cd90c206a61337061a8709366306b3f58c10d19c04
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

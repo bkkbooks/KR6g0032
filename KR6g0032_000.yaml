@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6g0032/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 蓮華面經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T12/T12n0386.xml
+    old_id: T12n0386
+hash: sha256:f7992c10fe0617d66c9778a595d0954057f4bf589ead1a0986cddd5bdd14bb75
